@@ -8,6 +8,8 @@ public class Car {
         this.manuDate = manuDate;
     }
     public static void main(String[] args) {
-        Car c1 = new Car
+        Car c1 = new Car("BMW", 15);
+        System.out.println("brandname="+ c1.brandName);
+        System.out.println("manudate="+ c1.manuDate);
     }
 }
